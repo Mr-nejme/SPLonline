@@ -41,7 +41,7 @@ function botNotify(message) {
 const button1 = document.getElementById("button1");
 if (button1) {
     button1.addEventListener("click", () => {
-        window.location.href = "payment.html";
+        window.location.href = "/html/payment.html";
     });
 }
 
